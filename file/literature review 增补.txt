@@ -1,0 +1,11 @@
+介绍
+数据分析是指用适当的统计分析方法对收集来的大量数据进行分析，以求最大化地开发数据的功能，发挥数据的作用。数据分析是为了提取有用信息和形成结论而对数据加以详细研究和概括总结的过程。(Tao 2017)
+正如Michael所介绍的那样，由于计算机技术每一年都在突破发展，使我们先进有可能以不费吹灰之力和低廉的成本收集和存储大量数据。(Berthold et al 2010) 
+Pyne等学者认为大数据与传统的数据集有着不一样的特征。the world of big data is often nourished by dynamic sources such as intense networks of customers, clients, and companies, and thus there is an automatic flow of data that is always available for analysis.(Pyne et al 2016)
+因此我们可以利用这一类的数据来捕获复杂的动态现象
+
+Big data analytics is the process of exploring Big data, to extract hidden and valuable information and patterns (Russom et al 2011)数据分析应用程序可以分为描述性分析，预测性分析。描述性分析深入到历史数据中，以检测诸如运营成本变化，不同产品的销售，客户购买偏好等模式。(Pusala et al 2016)预测性分析是建立在历史数据的基础上对于未来发展变化的分析。专家们通过预测趋势，生成预测模型和评分来评估未来。(Pusala et al 2016)
+
+在下面的小节中将会介绍4种常用的数据分析算法，它们分别是classification, regression, association, cluster.
+
+Russom P et al (2011) Big data analytics. TDWI Best Practices Report, Fourth Quarter

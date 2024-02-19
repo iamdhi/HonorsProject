@@ -1,0 +1,75 @@
+﻿介绍
+数据分析是指用适当的统计分析方法对收集来的大量数据进行分析，以求最大化地开发数据的功能，发挥数据的作用。数据分析是为了提取有用信息和形成结论而对数据加以详细研究和概括总结的过程。Data analysis refers to the use of appropriate statistical analysis methods to analyze a large number of collected data, in order to maximize the development of data functions and play the role of data. Data analysis is a process of studying and summarizing data in detail in order to extract useful information and form conclusions.(Tao 2017)
+正如Michael所介绍的那样，由于计算机技术每一年都在突破发展，使我们先进有可能以不费吹灰之力和低廉的成本收集和存储大量数据。As Michael introduced, computer technology is breaking through every year, which makes it possible for us to collect and store a large amount of data at an effortless and low cost. (Berthold et al 2010) 
+Pyne等学者认为大数据与传统的数据集有着不一样的特征。Pyne and other scholars believe that big data has different characteristics from traditional data sets. The world of big data is often nourished by dynamic sources such as intense networks of customers, clients, and companies, and thus there is an automatic flow of data that is always available for analysis.(Pyne et al 2016)
+因此我们可以利用这一类的数据来捕获复杂的动态现象Thus we can use this kind of data to capture complex dynamic phenomena 
+
+Big data analytics is the process of exploring Big data, to extract hidden and valuable information and patterns. (Russom et al 2011)数据分析应用程序可以分为描述性分析，预测性分析。描述性分析深入到历史数据中，以检测诸如运营成本变化，不同产品的销售，客户购买偏好等模式。Data analysis application can be divided into descriptive analysis and predictive analysis. Descriptive analysis goes deep into historical data to detect patterns such as changes in operating costs, sales of different products, and customer purchase preferences.(Pusala et al 2016)预测性分析是建立在历史数据的基础上对于未来发展变化的分析。专家们通过预测趋势，生成预测模型和评分来评估未来。Predictive analysis is based on historical data for future development and change. Experts assess the future by predicting trends, generating forecasting models and ratings. (Pusala et al 2016)
+
+在下面的小节中将会介绍4种常用的数据分析算法，它们分别是classification, regression, association, cluster.
+
+In the following sections, I will introduce four commonly used data analysis algorithms, which are classification, regression, association, cluster.
+
+
+
+Russom P et al (2011) Big data analytics. TDWI Best Practices Report, Fourth Quarter
+
+
+
+
+As Michael introduced, computer technology is breaking through every year, which makes it possible for us to collect and store a large amount of data at an effortless and low cost.(Berthold et al 2010) Pyne and other scholars believe that big data has different characteristics from traditional data sets. The world of big data is often nourished by dynamic sources such as intense networks of customers, clients, and companies, and thus there is an automatic flow of data that is always available for analysis.(Pyne et al 2016) Thus we can use this kind of data to capture complex dynamic phenomena. Data analysis refers to the use of appropriate statistical analysis methods to analyze a large number of collected data, in order to maximize the development of data functions and play the role of data. Big data analytics is the process of exploring Big data, to extract hidden and valuable information and patterns. (Russom et al 2011) Data analysis application can be divided into descriptive analysis and predictive analysis. Descriptive analysis goes deep into historical data to detect patterns such as changes in operating costs, sales of different products, and customer purchase preferences.(Pusala et al 2016) Predictive analysis is based on historical data for future development and change. Experts assess the future by predicting trends, generating forecasting models and ratings. (Pusala et al 2016) Data analysis is a process of studying and summarizing data in detail in order to extract useful information and form conclusions.(Tao 2017) In the following sections, I will introduce four commonly used data analysis algorithms, which are classification, regression, association, cluster.
+Big data analytics is the process of exploring Big data, to extract hidden and valuable information and patterns. (Russom et al 2011) Data analysis application can be divided into descriptive analysis and predictive analysis. Descriptive analysis goes deep into historical data to detect patterns such as changes in operating costs, sales of different products, and customer purchase preferences.(Pusala et al 2016) Predictive analysis is based on historical data for future development and change. Experts assess the future by predicting trends, generating forecasting models and ratings. (Pusala et al 2016)
+
+
+Association
+关联规则是从海量的数据中找出数据之间的频繁模式。关联规则的研究最早诞生于人们对于超市购物的行为规律的研究。研究人员找出顾客的历史购买数据试图找出客户购买时的组合商品以此来合理安排货架商品。
+Association rule is to find out the frequent patterns between data from massive data. The research of association rules is originated from the research of the behavior rules of supermarket shopping. The researchers find out the historical purchase data of customers and try to find out the combination of products when customers purchase so as to arrange the goods on the shelves reasonably.
+Association rules can predict any attribute, not just the class, and this gives them the freedom to predict combinations of attributes too.( Witten et al 2012) 在这其中最为著名的是Agrawal等人提出的Apriori算法。这个算法通过使用基于支持度的剪枝技术，系统地控制候选集指数地增长。Among them, the most famous one is Apriori algorithm proposed by Agrawal et al. This algorithm uses support based pruning technology to control the exponential growth of candidate sets. (Agrawal et al 1993)
+
+In Witten's research, weather data is introduced to show that in association rules, researchers are only interested in association rules with high coverage. In addition, Berthold proposed FP-growth and several other frequent item set mining algorithms all rely on the described basic recursive processing scheme. They differ mainly in how they represent the conditional transaction databases.( Berthold et al 2010)
+
+
+
+
+
+
+Cluster
+Clustering techniques apply when there is no class to be predicted but rather when the instances are to be divided into natural groups. ( Witten et al 2012) Bertold et al. classified clustering into Hierarchical Clustering, Prototype-Based Clustering and Density-Based Clustering.层次聚类技术仅适用于小型数据集。Prototype-Based Clustering技术非常有效，即使对于更大的数据集，结果也可以解释。Density-Based Clustering 允许任意形状的组，但是这种灵活性的代价是很难对获得的聚类进行解释。在聚类算法之中最经典的一种算法就是K-Means算法。该算法通过制定簇类数目K值对数据集进行划分产生聚类。Hierarchical clustering is only suitable for small data sets. Prototype based clustering technology is very effective, even for larger datasets, the results can be interpreted. Density based clustering allows groups of arbitrary shapes, but the cost of this flexibility is that it is difficult to explain the obtained clusters. One of the most classical clustering algorithms is k-means algorithm. The algorithm divides the data set into clusters by setting the number of clusters K value. (Wang et al 2012)具体操作如下：The specific operations are as follows: ( Witten et al 2012)
+1、 指定要搜索的簇数 k。
+2、 随机选择k个点作为聚类中心。根据普通的欧几里得距离度量标准，所有实例都分配给它们最近的聚类中心。
+3、 接下来的计算每个群集中实例的质心或均值，这就是“均值”部分。这些质心被视为它们各自簇的新中心值。
+4、 最后，使用新的群集中心重复整个过程。迭代将继续进行，直到在连续的回合中将相同的点分配给每个集群为止，在此阶段，集群中心已经稳定并且将永远保持不变。
+1. Specifies the number of clusters K to search.
+2. Randomly select k points as clustering center. According to the Euclidean distance metric, all instances are assigned to their nearest clustering centers.
+3. Next, calculate the centroid or mean value of each instance in the cluster, which is the "mean value" part. These centers of mass are considered as new center values for their respective clusters.
+4. Finally, repeat the whole process with the new cluster center. The iteration continues until the same points are assigned to each cluster in successive rounds, during which the cluster center is stable and will remain unchanged forever.这种聚类方法简单而且非常有效。对于k的取值由于一开始并不能够确定因此我们选择从2开始逐步增加以便于找出最佳的k的取值。This clustering method is simple and very effective. As the value of K can not be determined at the beginning, we choose to increase gradually from 2 to find the best value of K.
+
+
+
+
+
+
+
+
+分类：
+Classification predict the outcome of an experiment with a nominal target class attribute.决策树是目前最流行的分类方式。在决策树中有两个比较普遍运用的算法它们分别是ID3和C4.5。Quinlan于1986年提出的ID3 (Iterative Dichotomizer 3) 算法是决策树算法的代表,在此之后的多种决策树算法都是在ID3算法的基础上加以改进而实现的。在ID3算法的基础上演变, Quinlan在1993年提出了C4.5算法。这种算法相比ID3算法, 其计算复杂度更低, 计算效率得到了提高。C4.5算法是构造决策树分类规则的一种算法, 它是ID3算法的扩展。ID3算法只能处理离散型的描述性属性, 而C4.5算法还能够处理描述属性取值为连续型的情况。分类是一种有监督的学习。
+
+
+Decision tree is the most popular classification method. There are two commonly used algorithms in decision tree: ID3 and C4.5. The ID3 (Iterative Dichotomizer 3) algorithm proposed by Quinlan in 1986 is the representative of the decision tree algorithm. After that, many decision tree algorithms are improved on the basis of ID3 algorithm. Based on the evolution of ID3 algorithm, Quinlan proposed C4.5 algorithm in 1993. Compared with ID3 algorithm, this algorithm has lower computational complexity and higher computational efficiency. C4.5 algorithm is an algorithm to construct decision tree classification rules, which is an extension of ID3 algorithm. ID3 algorithm can only deal with discrete descriptive attributes, while C4.5 algorithm can deal with continuous descriptive attributes. Classification is a supervised learning. (Quinlan 1986 1993)
+
+
+Regression
+回归（尤其是逻辑回归）也是解决两类分类问题的一种流行方法。
+
+Regression (especially logical regression) is also a popular method to solve the two-classification problem. Regression is the process of fitting a real-valued function of a given class to a given data set by minimizing some cost functional, most often the sum of squared errors. ( Berthold et al 2010)。回归分析是一种可以用于预测的一种算法。当我们在需要预测时，需要预测的数量是数字的时候就需要运用到这种方法。通常情况下又可以将回归分析分为线性回归与非线性回归。线性回归分析是基于最小二乘原理的统计分析方法，是在统计假设下的最优线性无偏估计。回归从统计的角度，量化分析变量之间的相互变化规律，并通过不断地修正和调整，用数量关系式来反映这种规律。连续变量预测的定量输出称为回归。
+
+Regression analysis is an algorithm that can be used for prediction. When we need to predict, we need to use this method when the variables we need to predict are numbers. Generally, regression analysis can be divided into linear regression and nonlinear regression. Linear regression analysis is a statistical analysis method based on the least square principle, which is the optimal linear unbiased estimation under the statistical assumption. Regression from a statistical point of view, quantitative analysis of the law of change between variables, and through constant correction and adjustment, with quantitative relations to reflect this law. The quantitative output of continuous variable prediction is called regression.
+
+
+WEKA
+WEKA( Waikato Environment for Knowledge Analysis) 是 Waikato 大学研究的开放源码的数据挖掘平台, 其 中集成了大量能承担数据挖掘任务的机器学习算法, 包括对数 据进行预处理、关联规则挖掘、分类、聚类等, 并提供了丰富的 可视化功能。(Witten et al 2017) 在 WEKA 平台上进行数据挖掘的过程如下: 先输入要测 试的数据集, 然后对待测数据进行预处理, 再将处理后的数据 集置于一种学习方案中并分析其结果或是将已学习到的模型 来预测未知的实例, 或是将数据集置于不同的学习方案中, 针 对各种方案的学习结果进行模式评估, 以找出最佳性能的学习 方案。(Chen et al 2008)为了便于使用，要先将CSV格式的文件输入到weka中，然后再以.arff格式输出。weka集成了近 50 种算法。
+Weka (Waikato Environment for Knowledge Analysis) is an open source data mining platform researched by Waikato University, which integrates a large number of machine learning algorithms that can undertake data mining tasks, including data preprocessing, association rule mining, classification, clustering, and provides rich visualization functions. (Witten et al 2017) The process of data mining on Weka platform is as follows: First input the data set to be tested, then preprocess the data to be tested, and then place the processed data set in a learning scheme and analyze its results, or predict the unknown instance by the learned model, or place the data set in different learning schemes, In order to find out the best learning scheme, we evaluate the learning results of each scheme. (Chen et al 2008) For ease of use, firstly the CSV file is imported into Weka, and then it is exported in .arff format. Weka integrates nearly 50 algorithms. Id3 algorithm (in the simpleEducationalLearningSchemes package) and J4.8(implementation of C4.5) algorithm can be applied to decision tree. In association rules we can use FPGrowth (frequent pattern trees) and Apriori. LinearRegression and logistic are available to realize regression analysis. SimpleKMeans can be used to do cluster analysis. (Witten et al 2017)
+
+
+总结
+本章节阅读了大量的文献资料，为接下来的章节奠定了理论基础。文献中表明目前51job以及zhilian recruitment这两个网站占据了中国互联网招聘的主要份额所以在获取中国网络招聘网站内容的时候将会使用它们来进行分析。对于目前各个网站都开展了反爬虫设置，因此在爬虫设计中将会使用添加请求头部的方式来模拟真实的浏览器访问网页。这是一个简单而且通用的办法来应对网站的反爬虫策略。此外为了不给对方服务器造成负荷在进行访问的时候设定访问间隙。文献中提到了三种获取网页信息的方式它们分别是beautiful soup，Xpath以及RE(正则表达式)。在实际运用之中，我会选择Xpath为主RE为辅的形式来实现。这是因为我目前所使用的浏览器有Xpath helper插件它能够帮助我判断我所写的Xpath代码是否正确来避免实际运行程序的过程中出现错误。RE是一个很好的关键字匹配的筛选方式。它能够很好地在岗位信息中获取我所需要的内容。文献中还指出在数据清理的过程中应当使用的方法。例如在缺省值的填充中可以使用中位数来进行填充。在对数据进行分析的时候有四种主要的分析方式它们分别是classification, regression, cluster and association. 在实际的分析过程中我都会使用到它们因为它们涵盖了描述性分析和预测性分析。在使用分析软件时，将首先考虑到使用Weka，文献中也提到了它的简单操作性。除此之外python分析也是作为一个参考的依据，尤其是在绘制图像的时候回运用到它。

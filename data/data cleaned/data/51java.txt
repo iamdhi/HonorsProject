@@ -1,0 +1,13 @@
+if value <= 10000 :
+ return 'low'
+elif value> 10000 and value <= 20000:
+ return 'medium'
+else:
+ return 'high'
+
+if value <= 10000 :
+ return 'low'
+elif value> 10000 and value <= 23000:
+ return 'medium'
+else:
+ return 'high'
